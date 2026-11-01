@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TapPay Playground</string>
+    <string name="toolbar_subtitle">SIMULATION ONLY - no real payments</string>
+
+    <string name="demo_badge">DEMO CARD - NOT A REAL ACCOUNT</string>
+    <string name="demo_pan">4000 0000 0000 0002</string>
+    <string name="demo_holder">MATTHEW CATT (DEMO)</string>
+    <string name="demo_expiry">12/29</string>
+    <string name="demo_cvv_note">CVV: never read, never stored. This app handles no real card details.</string>
+
+    <string name="amount_hint">Custom demo amount (GBP)</string>
+    <string name="currency_prefix">£</string>
+    <string name="btn_test_payment">Run test payment now (no NFC needed)</string>
+
+    <string name="nfc_title">NFC-triggered demo payments</string>
+    <string name="nfc_ready">NFC available: foreground tap detection is active.</string>
+    <string name="nfc_unavailable">NFC not available on this device. Use the test button instead.</string>
+    <string name="nfc_instructions">With this app open, hold any NFC card or tag against the back of the phone. The tap triggers a fake payment notification. TapPay only reacts to the tap event itself: it never reads payment data from the card.</string>
+
+    <string name="sim_processing_title">SIMULATION - processing</string>
+    <string name="sim_processing_body">Demo payment via %1$s. Nothing real is being charged.</string>
+    <string name="sim_approved_title">SIMULATED payment approved</string>
+    <string name="sim_approved_body">%1$s approved on demo card %2$s (via %3$s).
+
+This is a simulation. No real money moved and no real card was involved.</string>
+
+    <string name="wallet_title">Google Wallet</string>
+    <string name="wallet_explanation">The tap-to-pay side of Google Wallet is not open to third-party apps. The only official integration is the Save to Google Wallet passes API, which needs a real issuer account. This app detects and opens Wallet when it is installed, and uses a clearly-labelled demo fallback otherwise.</string>
+    <string name="btn_wallet">Detect and open Google Wallet</string>
+    <string name="wallet_found_body">Google Wallet is installed on this device. Opening it shows the real app; TapPay does not and cannot add cards to it. The demo fallback simulates what an officially-integrated pass flow would look like.</string>
+    <string name="wallet_demo_body">DEMO FALLBACK: on a device with an issuer-issued pass, TapPay would hand a demo pass to Google Wallet here. Nothing was added and no card data was touched.</string>
+
+    <string name="history_title">Demo payment log</string>
+    <string name="history_empty">No simulated payments yet.</string>
+
+    <string name="notif_channel_name">Simulated payments</string>
+    <string name="notif_channel_desc">Fake payment notifications from TapPay Playground. Nothing here is real.</string>
+    <string name="notif_title">TapPay SIMULATION - payment approved</string>
+    <string name="notif_body">Fake payment of %1$s approved by Demo Bank (via %2$s). No real money moved.</string>
+    <string name="notif_body_big">Fake payment of %1$s approved by Demo Bank (via %2$s).
+
+Simulation only: TapPay Playground never reads or stores real card data.</string>
+
+    <string name="about_body">TapPay Playground v1.0
+
+Every card, payment, notification and Wallet flow in this app is a simulation. No real card details are ever read, stored or transmitted. The demo card number is a public test number and is not a real account.
+
+Google Wallet: third-party apps are not allowed into its tap-to-pay stack, and real pass integration needs an issuer account, so this app only detects and opens Wallet when present and falls back to a demo otherwise.
+
+Built with Java, XML and Material 3.</string>
+
+    <string name="menu_about">About</string>
+    <string name="menu_clear">Clear demo log</string>
+</resources>

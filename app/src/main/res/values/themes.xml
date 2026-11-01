@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.TapPay" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/demo_card_bg</item>
+        <item name="colorOnPrimary">@color/demo_card_text</item>
+    </style>
+</resources>
