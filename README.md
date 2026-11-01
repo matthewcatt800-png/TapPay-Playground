@@ -1,7 +1,24 @@
 # TapPay Playground
 
-An offline payment-UI simulator for Android. SIMULATION ONLY: no real payments, no real cards, nothing touches money. Built for demos and UI testing.
+An offline Android payment-UI simulator for demos and interface testing.
 
-- Android app, source is in the repo root.
-- Signed APK included at the repo root for direct install.
-- Signing keystores are kept out of the repos on purpose.
+> **Simulation only.** This project does not process real payments, use real payment cards or move money.
+
+## Overview
+TapPay Playground is a UI-focused Android project for exploring payment-style screens in a controlled, offline demonstration environment.
+
+## Project
+- Platform: Android
+- Language: Java
+- Purpose: UI simulation and testing
+
+## Getting started
+1. Clone the repository.
+2. Open the project in Android Studio.
+3. Sync Gradle, then build and run on a test device or emulator.
+
+## Safety boundary
+Use fictional demonstration data only. This app is not a payment terminal, payment gateway or financial service.
+
+## Status
+Demo / playground project.
